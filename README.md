@@ -16,3 +16,8 @@ Chat App is a real-time messaging application that allows users to create accoun
 - **PostgreSQL**: A powerful, open-source relational database.
 - **Redis**: An in-memory data structure store, used for caching and real-time updates.
 
+
+<img src="obraz.png" alt="JavaPaint Screenshot">
+
+
+<img src="obraz1.png" alt="JavaPaint Screenshot">
