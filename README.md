@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Chat App
 
-## Getting Started
+## Overview
+Chat App is a real-time messaging application that allows users to create accounts, send messages to friends, and manage friend requests. Users can accept or reject friend requests and set their status as "busy" or "available." Additionally, the app provides real-time updates on whether a user is online or offline.
 
-First, run the development server:
+## Features
+- **Account Management**: Users can create and manage their accounts.
+- **Messaging**: Send and receive messages with friends in real-time.
+- **Friend Requests**: Send, accept, or decline friend requests.
+- **Status Updates**: Set your status to "busy" or "available."
+- **Real-Time Presence**: See if your friends are online or offline in real-time.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies
+- **Next.js**: A React framework for building server-side rendering and static web applications.
+- **Prisma**: A next-generation ORM used to interact with the database.
+- **PostgreSQL**: A powerful, open-source relational database.
+- **Redis**: An in-memory data structure store, used for caching and real-time updates.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
